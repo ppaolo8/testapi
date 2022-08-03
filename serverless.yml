@@ -1,0 +1,13 @@
+org: ppaolo8
+app: testapi
+service: testapi
+
+frameworkVersion: '3'
+
+provider:
+  name: aws
+  runtime: python3.8
+
+functions:
+  hello:
+    handler: handler.hello
